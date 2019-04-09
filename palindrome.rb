@@ -1,5 +1,5 @@
 def palindrome?(string)
-	string = string.to_s.downcase.(/\w/)
+	string = string.to_s.downcase.scan(/\w/)
  string == string.reverse
 end
 puts palindrome?("A man, a plan, a canal -- Panama")
