@@ -1,5 +1,5 @@
 def palindrome?(string)
-	return false if str.nil?
+	return false if string.nil?
 	string = string.to_s.downcase.scan(/\w/)
  string == string.reverse
 end
